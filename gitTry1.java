@@ -50,4 +50,10 @@ public class gitTry1 {
 		if (num<=0){ret = false;}
 		return ret;
 	}
+	
+	public static boolean isNegative(int num){
+		boolean ret = true;
+		if (num>=0){ret = false;}
+		return ret;
+	}
 }
