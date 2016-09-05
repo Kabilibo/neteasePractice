@@ -27,4 +27,21 @@ public class gitTry1 {
 		else{ret = false;}
 		return ret;
 	}
+	
+	public static boolean isPerfect(int num){
+		boolean ret = true;
+		int sum = 0;
+		for (int i=1;i<num;i++)
+		{
+			if (num%i==0)
+			{
+				sum+=i;
+			}
+		}
+		if (sum==num)
+		{
+			ret = true;
+		}
+		return ret;
+	}
 }
