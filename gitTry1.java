@@ -44,4 +44,21 @@ public class gitTry1 {
 		}
 		return ret;
 	}
+	
+	public static boolean isPositive(int num){
+		boolean ret = true;
+		if (num<=0){ret = false;}
+		return ret;
+	}
+	
+	public static boolean isNegative(int num){
+		boolean ret = true;
+		if (num>=0){ret = false;}
+		return ret;
+	}
+	
+	public static void printTwice(String a){
+		System.out.println(a);
+		System.out.println(a);
+	}
 }
