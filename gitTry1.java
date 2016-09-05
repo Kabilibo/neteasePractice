@@ -44,4 +44,10 @@ public class gitTry1 {
 		}
 		return ret;
 	}
+	
+	public static boolean isPositive(int num){
+		boolean ret = true;
+		if (num<=0){ret = false;}
+		return ret;
+	}
 }
