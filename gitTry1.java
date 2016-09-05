@@ -1,4 +1,5 @@
-
+package homework1;
+		
 public class gitTry1 {
 	
 	public static boolean isOdd(int num){
@@ -10,4 +11,20 @@ public class gitTry1 {
 		return ret;
 	}
 	
+	
+	public static boolean isPrime(int num){
+		boolean ret = true;
+		if (num==2){}
+		else if (num>2){
+			for (int i=2;i<num;i++){
+				if (num%i==0)
+				{
+					ret = false;
+					break;
+				}
+			}
+		}
+		else{ret = false;}
+		return ret;
+	}
 }
